@@ -22,9 +22,9 @@ class Order:
 
 class CustomerService:
     def __init__(self):
-        self.orderss = []
+        self.orders = []
 
     def place_order(self, customer, products):
         order = Order(customer, products)
-        self.orderss.append(order)
+        self.orders.append(order)
         return order
