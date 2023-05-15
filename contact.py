@@ -13,7 +13,8 @@ class Order:
         self.customer = customer
         self.products = products
 
-    def calculate_total(self):
+
+    def calculate(self):
         total = 0
         for product in self.products:
             total += product.price
